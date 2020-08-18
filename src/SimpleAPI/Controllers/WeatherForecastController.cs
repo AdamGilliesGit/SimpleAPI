@@ -39,7 +39,9 @@ namespace SimpleAPI.Controllers
         [HttpGet("id")]
         public string Get(int id)
         {
-            return "hello";
+            var returnString = "hello";
+
+            return returnString;
         }
     }
 }
